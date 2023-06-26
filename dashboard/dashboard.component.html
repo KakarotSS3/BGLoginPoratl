@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+    <app-header></app-header>
+<head>
+    <title>Login Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="dashboard.component.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+    
+
+    <div class="BlockPadd">
+        <div class="block"><a href="#" class="hyperLnkText">Mange Other Employees</a></div>
+        <div class="block"><a href="#" class="hyperLnkText">Compare open enrollment</a></div>
+        <div class="block"><a href="#" class="hyperLnkText">View Benefits</a></div>
+        <div class="block"><a href="#" class="hyperLnkText">Update Contact and Dependent</a></div>
+        <div class="block"><a href="#" class="hyperLnkText">Life Events</a></div>
+        <div class="block"><a href="#" class="hyperLnkText">Download Forms</a></div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dashboard.component.ts"></script>
+</body>
+
+<html lang="en" ng-app="myApp">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+</html>
+
+<div ng-view></div>
+<router-outlet></router-outlet>
+</html>

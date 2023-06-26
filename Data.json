@@ -1,0 +1,59 @@
+{
+    "data": [
+      {
+        "id": "1",
+        "firstName": "Leanne",
+        "lastName": "Graham",
+        "gender": "Female",
+        "title": "Test Title",
+        "email": "test1@email.com",
+        "birthdate": "28-9-1995",
+        "hireDate": "28-9-2022",
+        "phone": "79798964",
+        "SSN": "165-46455",
+        "mailingStreet": "Test Street 1",
+        "mailingState": "Test State 1",
+        "mailingCity": "Test City 1",
+        "mailingPostalCode": "46565658",
+        "username": "Bret",
+        "pass":"pass123"
+      },
+      {
+        "id": "2",
+        "firstName": "John",
+        "lastName": "Doe",
+        "gender": "Male",
+        "title": "Test Title",
+        "email": "test2@email.com",
+        "birthdate": "10-5-1988",
+        "hireDate": "15-7-2021",
+        "phone": "12345678",
+        "SSN": "789-12345",
+        "mailingStreet": "Test Street 2",
+        "mailingState": "Test State 2",
+        "mailingCity": "Test City 2",
+        "mailingPostalCode": "98765432",
+        "username": "johndoe",
+        "pass":"pass456"
+      },
+      {
+        "id": "3",
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "gender": "Female",
+        "title": "Test Title",
+        "email": "test3@email.com",
+        "birthdate": "5-12-1990",
+        "hireDate": "20-3-2019",
+        "phone": "98765432",
+        "SSN": "456-78912",
+        "mailingStreet": "Test Street 3",
+        "mailingState": "Test State 3",
+        "mailingCity": "Test City 3",
+        "mailingPostalCode": "12345678",
+        "username": "janesmith",
+        "pass":"pass789"
+      }
+    ]
+  }
+  
