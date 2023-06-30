@@ -2,27 +2,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 .open-cases {
   border: 1px solid black;
-  
+  border-top-left-radius: 25px;
   height: 85vh;
   width: 100vh;
-  
+  border-radius: 10px;
 }
-
+#OpenCase{
+    right: 0;
+}
+#ClosedCase{
+    left: 0;
+    z-index: 1;
+}
 .open-cases-title {
  width:350px;
  height:50px;
+ border-top-left-radius: 25px;
+ border-top-right-radius: 25px;
 }
 .logBtnDiv {
-  padding-left: 800px;
+  padding-left: 830px;
 }
 .logBtn {
-  border-radius: 5px;
-  font-size: 16px;
+  border-radius: 8px;
+  font-size: 20px;
   background-color: white;
 }
 table {
@@ -91,6 +99,7 @@ th {
   height: 40px;
   font-size: 16px;
   padding: 10px;
+  border-radius: 10px;
 }
 #cancel {
     margin-right: 20px;
@@ -98,4 +107,14 @@ th {
   height: 40px;
   font-size: 16px;
   padding: 10px;
+  border-radius: 10px;
+}
+.custom-table th:first-child,
+.custom-table td:first-child {
+  width: 70%;
+}
+
+.custom-table th:not(:first-child),
+.custom-table td:not(:first-child) {
+  width: 10%;
 }
