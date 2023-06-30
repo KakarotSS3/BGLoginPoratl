@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NgModule } from '@angular/core';
+import { UserDataService } from './user-data.service';
 
 
 @Component({
@@ -9,5 +10,16 @@ import { NgModule } from '@angular/core';
 })
 export class AppComponent {
 
-  
+  userData: any =[];
+  title: any;
+  constructor(private userdataservice:UserDataService){
+
+    this.userdataservice.getUserData().subscribe((data)=>{
+      console.log(data)
+      this.userData = data;
+     })
+  }
+ 
+ 
+ 
 }

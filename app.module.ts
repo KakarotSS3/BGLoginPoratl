@@ -12,6 +12,9 @@ import { ManangeEmployeesComponent } from './manange-employees/manange-employees
 import { HeaderComponent } from './header/header.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import{ HttpClientModule } from '@angular/common/http'
+import { UserService } from './user.service';
+import { EnrollmentsComponent } from './enrollments/enrollments.component';
+import { SupportComponent } from './support/support.component';
 
 
 
@@ -24,7 +27,9 @@ import{ HttpClientModule } from '@angular/common/http'
     LoginPageComponent,
     ManangeEmployeesComponent,
     HeaderComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    EnrollmentsComponent,
+    SupportComponent
 
 
 
@@ -36,8 +41,8 @@ import{ HttpClientModule } from '@angular/common/http'
     HttpClientModule,
   
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [UserService],
+  bootstrap: [AppComponent],
 })
 export class AppModule {
 

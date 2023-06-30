@@ -1,0 +1,101 @@
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.open-cases {
+  border: 1px solid black;
+  
+  height: 85vh;
+  width: 100vh;
+  
+}
+
+.open-cases-title {
+ width:350px;
+ height:50px;
+}
+.logBtnDiv {
+  padding-left: 800px;
+}
+.logBtn {
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: white;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+.tableCls {
+  padding: 10px;
+  padding-top: 3%;
+}
+.inputs {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-group label {
+  margin-right: 40px;
+}
+.form-group input {
+  position: center;
+}
+#comments {
+  width: 600px; /* Adjust the width as needed */
+  height: 300px;
+  border-radius: 5px;
+}
+#category {
+  width: 460px;
+  height: 40px;
+  font-size: 21px;
+  border-radius: 5px;
+  font-style: italic;
+}
+#subject {
+  width: 450px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.subjectIn {
+  padding: 12px;
+}
+.btnClass {
+  text-align: center;
+}
+#submit {
+  margin-right: 20px;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  padding: 10px;
+}
+#cancel {
+    margin-right: 20px;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  padding: 10px;
+}

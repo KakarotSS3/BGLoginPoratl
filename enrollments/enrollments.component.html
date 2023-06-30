@@ -1,0 +1,46 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<link rel="stylesheet" type="text/css" href="enrollments.component.css">
+
+
+
+
+
+<body>
+  <div class="container">
+    <div class="inner-div">
+      <div class="enrollment-title"><div><button class="EnrollmentsButton">Enrollments</button ><button class="hideButton"></button></div></div>
+      
+      <table class="alternating-table">
+        <thead>
+          <tr>
+            <th>Action</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Effective Date</th>
+            <th>Carrier</th>
+            <th>Cost Per Pay Period</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let insurance of insuranceData">
+            <td><a href="3">View Details</a></td>
+            <td>{{ insurance.name }}</td>
+            <td>{{ insurance.type }}</td>
+            <td>{{ insurance.EffectiveDate }}</td>
+            <td>{{ insurance.Carrier }}</td>
+            <td>{{ insurance.CostPayPeriod }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</body>
+
+
+
+
+
+
+<router-outlet></router-outlet>

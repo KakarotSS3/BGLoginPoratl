@@ -6,8 +6,9 @@ import { ProfileComponent } from './profile/profile.component';
 import { AppComponent } from './app.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { ManangeEmployeesComponent } from './manange-employees/manange-employees.component';
-import { HeaderComponent } from './header/header.component';
-
+import { HeaderComponent } from './header/header.component'; 
+import { EnrollmentsComponent } from './enrollments/enrollments.component';
+import { SupportComponent } from './support/support.component';
 
 
 const routes: Routes = [
@@ -16,9 +17,11 @@ const routes: Routes = [
   {path:'appCompo',component:AppComponent},
   {path:'profile',component:ProfileComponent},
   {path:'loginPage',component:LoginPageComponent},
-  {path:'**',component:LoginPageComponent},
+  {path:'**',component:SupportComponent},
   {path:'manageEmploye',component:ManangeEmployeesComponent},
-  {path:'header',component:HeaderComponent}
+  {path:'header',component:HeaderComponent},
+  {path:'enrollment',component:EnrollmentsComponent},
+  {path:'support',component:SupportComponent}
   
 ];
 

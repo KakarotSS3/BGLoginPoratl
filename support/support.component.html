@@ -1,0 +1,70 @@
+
+
+<div class="mainDiv">
+    <div class="open-cases">
+    
+        <button class="open-cases-title">Open Cases</button>
+        <button class="open-cases-title">Closed Cases</button>
+        <br>
+        <br>
+        <div class="logBtnDiv">
+            <button class="logBtn">Log a Case</button>
+        </div>
+        <div class="tableCls">
+            <table>
+                <thead>
+                  <tr>
+                    <th>Ticket</th>
+                    <th>Subject</th>
+                    <th>Open Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let item of cases">
+                    <td>{{ item.ticket }}</td>
+                    <td>{{ item.subject }}</td>
+                    <td>{{ item.openDate }}</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <form>
+            <div>
+              <div class="form-group">
+                <label for="subject">Subject:</label>
+                <div class="subjectIn">
+                    <input id="subject" type="text">
+                </div>
+                
+              </div>
+          
+              <div class="form-group">
+                <label for="category">Category:</label>
+                <select id="category">
+                  <option value="Category1">Category1</option>
+                  <option value="Category2">Category2</option>
+                  <option value="Category3">Category3</option>
+                  <option value="Category4">Category4</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="comments">Comments:</label>
+                <textarea id="comments"></textarea>
+              </div>
+            </div>
+            <div class="btnClass">
+                <button id="submit">Submit</button>
+                <button id="cancel">Cancel</button>
+            </div>
+          </form>
+          
+     
+        
+
+
+      </div>
+</div>
+
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,37 @@
+{
+  "Parent": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "SSN": "123-45-6789",
+      "HireDate": "2022-01-01",
+      "street": "123 Street",
+      "state": "California",
+      "city": "Los Angeles",
+      "postalCode": "12345",
+      "BirthDate": "1980-05-15",
+      "username": "Bret",
+        "pass":"pass123",
+      "Child": [
+        {
+          "firstName": "Child 1",
+          "lastName": "Doe",
+          "SSN": "987-65-4321",
+          "BirthDate": "2005-02-15",
+          "relationship": "Child",
+          "sex": "Male"
+        },
+        {
+          "firstName": "Child 2",
+          "lastName": "Doe",
+          "SSN": "456-78-9123",
+          "BirthDate": "2008-09-20",
+          "relationship": "Child",
+          "sex": "Female"
+        }
+      ]
+    }
+  ]
+}

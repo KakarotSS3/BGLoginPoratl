@@ -1,0 +1,69 @@
+.alternating-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .alternating-table th,
+  .alternating-table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .alternating-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .alternating-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .alternating-table tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  body {
+      padding: 200px;
+    }
+    
+    .container {
+      text-align: center;
+      padding-top: 100px;
+    }
+    
+    .inner-div {
+      position: relative;
+      padding: 100px;
+      border: 1px solid black;
+      display: inline-block;
+      margin-top: -100px;
+      
+     
+    }
+    
+    .enrollment-title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    table {
+      margin-top: 30px;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+      border-top: 1px solid black;
+    }
+    .EnrollmentsButton{
+        background-color: rgb(233, 217, 217);
+        width: 400px;
+        height: 30px;
+    }
+  .hideButton{
+    background-color: grey;
+    width: 400px;
+    height: 30px;
+  }
+  

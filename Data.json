@@ -1,5 +1,4 @@
-{
-    "data": [
+ [
       {
         "id": "1",
         "firstName": "Leanne",
@@ -55,5 +54,5 @@
         "pass":"pass789"
       }
     ]
-  }
+
   
